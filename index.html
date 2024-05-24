@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="start.css">
+    <title></title>
+</head>
+
+<body style="background-color:rgba(99, 55, 19, 0.89)">
+    
+    <div class="title">BISTRÔ DO GRINGO</div>
+    
+    <div class="content">   
+        <!-- Products Form --> 
+        <div class="form">
+        <h3 class="formstyle">Selecione uma mesa</h3>
+        
+            <select class="form-select mt-3" id="mesa" name="product1" style="width:25%; height: 4vh;">
+               
+                <option value="" disabled selected>Escolha uma opção</option>
+                <option value="Mesa 1">Mesa 1</option>
+                <option value="Mesa 2">Mesa 2</option>
+                <option value="Mesa 3">Mesa 3</option>
+                <option value="Mesa 4">Mesa 4</option>
+                <option value="Mesa 5">Mesa 5</option>
+                <option value="Mesa 6">Mesa 6</option>
+                <option value="Mesa 6">Mesa 7</option>
+                <option value="Mesa 6">Mesa 8</option>
+                <option value="Mesa 6">Mesa 9</option>
+                <option value="Mesa 6">Mesa 10</option>
+            
+              </div>
+            </select>
+    
+    
+        <!-- Order Selection --> 
+        <div class="order">
+            <h3 class="orderstyle">Faça aqui seu pedido</h3>
+            <form id="pedido">
+                <label for="lanches">Lanches</label><br>
+                <input type="number" id="lanches" name="lanches"  style="width:100%; height: 4vh;" placeholder="Digite um número"><br>
+                <label for="bebidas">Bebidas</label><br>
+                <input type="number" id="bebidas" name="bebidas"  style="width:100%; height: 4vh;" placeholder="Digite um número"><br>
+                <input type="submit" value="Fazer pedido" class="button" id="button">
+            </form>
+        </div>
+           
+           
+        <div id="resultado"></div>
+    
+      <!-- Menu List -->
+    <div class="menu">
+        <h3> Menu </h3>
+        <div class="row">
+        <div class="col-3">
+        <h6>
+        <p>1. Água</p>
+        <p>2. Cachaça</p>
+        <p>3. Caipirinha</p>
+        <p>4. Café </p>
+        <p>5. Chop</p>
+        <p>6. Cerveja Artesanal</p>
+        <p>7. Energético</p>
+        <p>8. Licor</p>
+        <p>9. Mojito</p>
+        <p>10. Refri</p>
+        <p>11. Suco</p>
+        <p>12. Vinho</p>
+        <p>13. Whiskey</p>
+        </h6>
+    </div>
+
+    <div class="col-3">
+        <h6>
+        <p>1. Pastel</p>
+        <p>2. Pão de Queijo</p>
+        <p>3. Torrada</p>
+        <p>4. Esfirra</p>
+        <p>5. Quibe</p>
+        <p>6. Pizza</p>
+        </h6>
+     </div>
+    </div>
+</div>
+
+     
+
+
+    <script src="inicio.js"></script>
+</body>
+</html>
